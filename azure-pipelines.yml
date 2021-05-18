@@ -18,7 +18,7 @@ steps:
     playbookPathLinkedArtifactOnRemoteMachine: 'users.yml'
     inventoriesRemoteMachine: 'file'
     inventoryFileSourceRemoteMachine: 'agentMachine'
-    inventoryFileLinkedArtifactOnRemoteMachine: 'azure_rm.yml'
+    inventoryFileLinkedArtifactOnRemoteMachine: 'azure_rm.yaml'
     args: '--private-key ~/.ssh/ansible_rsa'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
